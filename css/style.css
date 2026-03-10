@@ -302,6 +302,17 @@ h2 {
 
   .hero h1 {
     font-size: 2.1rem;
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-lead {
+    word-break: keep-all;
+    overflow-wrap: anywhere;
+  }
+
+  .pc-br {
+    display: none;
   }
 
   /* ドロワーメニュー */
