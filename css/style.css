@@ -110,6 +110,7 @@ h2 {
 .nav {
   display: flex;
   gap: 24px;
+  align-items: center; /* リンクとボタンの高さを揃えるために追加 */
 }
 
 .nav a {
@@ -119,8 +120,16 @@ h2 {
 }
 
 .nav-cta {
-  color: var(--main-dark);
-  font-weight: 700;
+  background: var(--main);
+  color: var(--white) !important;
+  font-weight: 600;
+  padding: 8px 16px;
+  border-radius: 999px;
+  transition: background 0.3s ease;
+}
+
+.nav-cta:hover {
+  background: var(--main-dark);
 }
 
 .menu-toggle {
