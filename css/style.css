@@ -188,10 +188,11 @@ h2 {
 .hero h1 span,
 .hero-lead span {
   display: inline-block;
+  color: white;
 }
 
 .hero h1 .hero-highlight {
-  color: var(--main-dark);
+  color: var(--main-dark) !important;
 }
 
 .hero-lead {
