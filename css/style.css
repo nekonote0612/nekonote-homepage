@@ -81,7 +81,7 @@ h3 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
   margin-bottom: 32px;
 }
 
@@ -288,7 +288,6 @@ h2 {
 @media (max-width: 768px) {
 
   h2 {
-    font-size: 1.6rem;
     text-align: center;
   }
 
