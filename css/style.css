@@ -360,22 +360,40 @@ h2 {
 }
 
 /* =====================
-   フッター（中央寄せ・安定）
-===================== */
+   フッター（左寄せ・2段構成）
+ ===================== */
 .site-footer {
   background: var(--white);
-  padding: 48px 0;
+  padding: 60px 0 40px;
   border-top: 1px solid #e5e7eb;
 }
 
-.site-footer .container {
+.site-footer .footer-content {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  /* 水平方向センター */
+  gap: 32px;
+}
+
+.footer-top {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footer-office-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+  color: var(--text) !important;
+}
+
+.footer-tel {
+  font-size: 1rem;
+}
+
+.footer-bottom {
+  padding-top: 24px;
+  border-top: 1px solid #f3f4f6;
   text-align: center;
-  /* テキストもセンター */
-  gap: 12px;
 }
 
 .site-footer p,
