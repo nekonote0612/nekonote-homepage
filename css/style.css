@@ -28,6 +28,7 @@ body {
   color: var(--text);
   background: var(--bg);
   line-height: 1.7;
+  overflow-x: hidden;
 }
 
 /* =====================
@@ -43,6 +44,7 @@ body {
   /* 基本セクション */
   background: var(--white);
   position: relative;
+  overflow: hidden;
 
   /* アニメーション初期状態 */
   opacity: 0;
@@ -155,6 +157,7 @@ h2 {
   text-align: center;
   /* テキストをセンター寄りに */
   color: white;
+  overflow: hidden;
 }
 
 .hero::before {
